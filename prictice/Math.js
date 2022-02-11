@@ -11,9 +11,7 @@
 //  9 --> Sonning darajasi qanday topiladi?
 //  10 --> Sonlar to'plami berilgan va ular orasidan maxni minni qanday aniqlaymiz?
 //  11 --> Ixtiyoriy (random) son qanday aniqlanadi?
-
-
-
+//  12 --> Round Ceil Floor Abs Random Pow Max Min Sqrt methodlari haqida batafsil malumot bering?
 
 
 
