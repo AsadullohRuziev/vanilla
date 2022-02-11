@@ -1,4 +1,49 @@
 // Math object
+// savollar
+//  1 --> PI ning qiymati nechagaga teng?
+//  2--> E ning qiymati nechaaga teng?
+//  3 --> Taqriblash nima? va unga bir necha ko'rinishda misollar yozing!!!
+//  4 --> Taqriblash method(lar)i qays(lar)i va u(lar)ni amalda qo'llab ko'rsating...
+//  5 --> Ceil methodi haqida batafsil aytib bering?
+//  6 --> Floor methodi haqida batafsil aytib bering?
+//  7 --> Sonlarni ildizi qanday chiqariladi?
+//  8 --> Manfiy sonni Musbat songa Qanday aylantiradi?
+//  9 --> Sonning darajasi qanday topiladi?
+//  10 --> Sonlar to'plami berilgan va ular orasidan maxni minni qanday aniqlaymiz?
+//  11 --> Ixtiyoriy (random) son qanday aniqlanadi?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -27,14 +72,14 @@ console.log(E)
 // 9.81 ~ 10 
 // 9.4  ~ 9
 let taqriblash;
-taqriblash = Math.round(10.5)
+taqriblash = Math.round(10.6)
 console.log(taqriblash);
 
 
 
 //✅ Sonlarni taqriblash (~)         Ceil method
 let ceilMethod;
-ceilMethod = Math.ceil(5.9);
+ceilMethod = Math.ceil(5.1);
 console.log(ceilMethod);
 
 
@@ -43,7 +88,7 @@ console.log(ceilMethod);
 
 //✅ Sonlarni taqriblash (~)         Floor method
 let floorMethod;
-floorMethod = Math.floor(3.6);
+floorMethod = Math.floor(3.9);
 console.log(floorMethod)
 
 
@@ -52,7 +97,7 @@ console.log(floorMethod)
 
 //✅ Sonlarni ildizdan chiqarish     SQRT method
 let sqrt;
-sqrt = Math.sqrt(16)
+sqrt = Math.sqrt(81)
 console.log(sqrt);
 
 

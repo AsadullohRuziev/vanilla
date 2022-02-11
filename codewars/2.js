@@ -120,15 +120,6 @@ console.log(greater(9, 9));
 
 
 
-
-
-
-
-
-
-
-
-
 // reverse declaration
 
 function reverse(number) {
