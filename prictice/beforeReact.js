@@ -90,6 +90,70 @@ addUser({name:'josh', firstName:'Kann'}, getUsers)
 
 // 🆘🆘🆘🆘🆘Promises
 
+/*
+
+const foydalanuvchilar = [
+    {name:'Bek', firstName: 'Aka' },
+    {name:'Matilda', firstName: 'Joes' },
+    {name:'Ali', firstName: 'Tolib' },
+    {name:'Asadulloh', firstName: 'Ruziev' },
+]
+
+function getFodalanuvchi(){
+    setTimeout(()=>{
+        let natija = '';
+        foydalanuvchilar.forEach((foydalanuvchi) =>{
+            natija +=   `<li>${foydalanuvchi.name} ${foydalanuvchi.firstName}</li>`
+        })
+        document.body.innerHTML = natija;
+    }, 1000)
+}
+
+// getFodalanuvchi()
+
+
+function qoshFoydalanuvchi(foydalanuvchi){
+    return new Promise((resolve, reject)=>{
+        setTimeout(()=>{
+            foydalanuvchilar.push(foydalanuvchi);
+
+
+            const error = false;
+
+            if (!error) {
+                resolve()
+            }else{
+                reject('Nimadir xato')
+            }
+
+        }, 1000)
+    })
+}
+qoshFoydalanuvchi({name:'Umar', firstName:'Mammadiyev'})
+    .then(getFodalanuvchi)
+    .catch(err=>console.log(err))
+
+// console.log(qoshFoydalanuvchi({name:'Umar', firstName:'Mammadiyev'}).then(getFodalanuvchi));
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+// 🆘🆘🆘🆘🆘Async vs Await
+
+
+
+
+
+
 
 
 const foydalanuvchilar = [
@@ -118,7 +182,7 @@ function qoshFoydalanuvchi(foydalanuvchi){
             foydalanuvchilar.push(foydalanuvchi);
 
 
-            const error = true;
+            const error = false;
 
             if (!error) {
                 resolve()
@@ -133,4 +197,10 @@ qoshFoydalanuvchi({name:'Umar', firstName:'Mammadiyev'})
     .then(getFodalanuvchi)
     .catch(err=>console.log(err))
 
-// console.log(qoshFoydalanuvchi({name:'Umar', firstName:'Mammadiyev'}).then(getFodalanuvchi));
+
+async function result(){
+    await qoshFoydalanuvchi({name:'Kamol', firstName:'Mammadiyev'})
+
+    getFodalanuvchi()
+}
+result()
