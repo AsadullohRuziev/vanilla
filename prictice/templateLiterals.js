@@ -94,3 +94,4 @@
 
 const timeInMS = Date.now();
 console.log(timeInMS);
+// vaqtni ko'rsatadi
